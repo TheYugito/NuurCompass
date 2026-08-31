@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>NoorCompass — moved to noorcompass.com</title>
+    <script>
+        (() => {
+            const here = new URL(location.href);
+            const target = new URL('https://noorcompass.com' + here.pathname + here.search + here.hash);
+            window.location.replace(target.href);
+        })();
+    </script>
+    <meta http-equiv="refresh" content="0;url=https://noorcompass.com/">
+</head>
+<body>
+    This site has moved to <a href="https://noorcompass.com/">noorcompass.com</a>.
+</body>
+</html>
